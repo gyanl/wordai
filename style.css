@@ -18,9 +18,17 @@
     --BG-4: #FAFAFA;
     --BG-5: #F0F0F0;
     --Stroke-1: #d1d1d1;
-    --FG-1: #4d4d4d;
+    --FG-1: #4d4d4d;f
     --FG-2: #616161;
     --table-outline: #898989;
+}
+
+header{
+  border-bottom: 1px solid var(--Stroke-1);
+}
+
+html{
+  background-color: #fff;
 }
 
 body {
@@ -117,9 +125,7 @@ select:hover{
     border: none;
     z-index: 0;
     outline: none;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14), 0px 0px 2px rgba(0, 0, 0, 0.12);
     line-height: 1.4;
-
 }
 
 
@@ -183,7 +189,8 @@ li.tab.active {
   align-items: flex-start;
   width: 100vw;
   position: fixed;
-  bottom: 0px;
+  bottom: 12px;
+  margin-left: 8px;
   overflow: scroll;
 }
 
