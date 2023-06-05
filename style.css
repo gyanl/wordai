@@ -182,10 +182,13 @@ li.tab.active {
 .floatie{
   align-items: flex-start;
   width: 100vw;
+  position: fixed;
+  bottom: 0px;
   overflow: scroll;
 }
 
 .quickstart{
+  display: none;
   padding: 20px 30px 26px 30px;
   background-color: #fff;
   position: fixed;
